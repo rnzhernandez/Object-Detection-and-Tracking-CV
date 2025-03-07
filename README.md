@@ -5,8 +5,8 @@ This repository contains a project on object detection and tracking using Mask R
 
 The project follows a structured approach:
 
-**Video Recording
-**
+**Video Recording**
+
 A 15-20 second video was recorded at home, ensuring at least five objects classified under the MS COCO dataset were present.
 The video included some motion (either moving objects or camera panning) to facilitate object tracking.
 The video was formatted for OpenCV compatibility and included my face for a few seconds as part of the task requirements.
@@ -24,6 +24,7 @@ Each detected object was assigned a unique ID to ensure proper tracking througho
 Multiple experiments were conducted to refine tracking performance and address jitter, false positives, and missed detections.
 
 **Key Features:**
+
 ✅ Custom video recorded at home with real-world objects.
 
 ✅ Mask R-CNN for object detection, filtering detections to relevant object classes.
